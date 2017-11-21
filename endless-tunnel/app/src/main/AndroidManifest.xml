@@ -19,6 +19,7 @@
      (com.google.example.games.tunnel) by your own package name -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.google.sample.tunnel">
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
   <application
       android:allowBackup="false"
